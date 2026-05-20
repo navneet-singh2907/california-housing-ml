@@ -26,9 +26,9 @@ The project layout separates transformation pipelines to ensure categorical vari
   ├── Fit & Save Preprocessing Pipeline   ├── Execute pipeline.transform()
   ├── Fit & Save RandomForest Model       ├── Generate Predictions Vector
   └── Output: .pkl files + input.csv      └── Output: Export clean output.csv
+```
 
-
-## 🛠️ Data Engineering & Preprocessing
+## Data Engineering & Preprocessing
 
 ### 1. Stratified Partitioning (Handling Sampling Bias)
 A simple random shuffle risks under-representing critical income segments, which serves as the most heavily weighted metric driving property values. To enforce historical and statistical parity:
